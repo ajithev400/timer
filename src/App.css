@@ -1,0 +1,107 @@
+
+
+.arrow {
+  position: absolute;
+  width: 106px; /* Adjust the size as needed */
+  height: 264px;
+  top: -54px;
+  left: 124px;
+
+}   
+
+
+.logo {
+ 
+  position: absolute;
+  width: 54px; /* Adjust the width as needed */
+  height: auto;
+  margin-bottom: 514px;
+  margin-top: -387px;
+  margin-left: 48px; 
+  
+ 
+}
+
+/* to style the custom text */
+.custom-text {
+  font-weight:400 !important;
+  position: absolute;
+  font-size: 18px;
+  color: white;
+  margin-top: -381px;
+  margin-bottom: 174px;
+  margin-left: 123px;
+}
+
+/* ... (rest of the styles) */
+
+body {
+  background-image: url('./assets/images/background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  margin: 0;
+}
+ 
+
+.App {
+  text-align: center;
+  font-family: 'myglitchh'; /* Update the font-family */
+  max-width: 500px;
+  margin: 100px auto;
+ 
+ 
+  
+  
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 5rem;
+}
+
+h2 {
+  line-height: 303px;
+  letter-spacing: -0.07em;
+  font-weight:900 ;
+  position: absolute;
+  font-size: 180px;
+  top: 28%;
+  left: 3%;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(249,87,56,0.5);
+  /* text-stroke: 2px red; May not be supported in all browsers */
+  margin: 0;
+}
+/* microseconds on top of the page */
+h3 {
+  line-height: 303px;
+  letter-spacing: -0.07em;
+  font-weight:900 ;
+  position: absolute;
+  font-size: 350px;
+  top: 0%;
+  left: 0%;
+  color: red;
+  opacity: 0.03;
+
+  margin: 0;
+
+}
+/* microseconds at the bottom of the page  */
+h4 {
+  line-height: 303px;
+  letter-spacing: -0.07em;
+  font-weight:900 ;
+  position: absolute;
+  font-size: 350px;
+  top: 55%;
+  left: 0%;
+  color: red;
+  opacity: 0.03;
+  /* -webkit-text-stroke: 1px rgba(249,87,56,0.5); */
+  /* text-stroke: 2px red; May not be supported in all browsers */
+  margin: 0;
+
+}
